@@ -1,6 +1,6 @@
 // import React, { useReducer } from 'react'
 
-type Props = {}
+// type Props = {}
 
 // const defaultDosage = {
 // 	person: {
