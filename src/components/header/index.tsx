@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
+// type Props = {}
 
-export default function Header({ }: Props) {
+export default function Header() {
 	return (
 		<header className="prose max-w-none flex justify-end w-full border h-18 items-center p-2">
 			<h2 className="mr-auto mb-0">Dosage Calculator</h2>

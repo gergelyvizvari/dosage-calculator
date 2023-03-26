@@ -1,28 +1,28 @@
-import React, { useReducer } from 'react'
+// import React, { useReducer } from 'react'
 
 type Props = {}
 
-const defaultDosage = {
-	person: {
-		age: 0,
-		weight: 0,
-	},
-	drog: {
-		name: '',
-		total: 0,
-	},
-	intake: [
+// const defaultDosage = {
+// 	person: {
+// 		age: 0,
+// 		weight: 0,
+// 	},
+// 	drog: {
+// 		name: '',
+// 		total: 0,
+// 	},
+// 	intake: [
 
-	],
-};
+// 	],
+// };
 
-const dosageReducer = (state: {}, action: string) => {
+// const dosageReducer = (state: {}, action: string) => {
 
-	return {...state};
-};
+// 	return {...state};
+// };
 
-export default function Calculator({ }: Props) {
-	const dosage = useReducer(dosageReducer, defaultDosage);
+export default function Calculator() {
+	// const dosage = useReducer(dosageReducer, defaultDosage);
 
 	return (
 		<div className='p-2 prose max-w-none'>
